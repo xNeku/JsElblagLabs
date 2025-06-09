@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Lab 2 - Interactive Quiz</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="lab2.js"></script>
+</head>
+<body>
+
+  <main class="quiz-wrapper">
+    <header>
+      <h2>JavaScript Quiz - Lab 2</h2>
+      <p class="author">By Nicolás Díaz</p>
+    </header>
+
+    <section id="question-container">
+      <p id="question-text" class="question"></p>
+      <input type="text" id="answer-input" placeholder="Type your answer here..." />
+      <button id="next-button" onclick="goToNext()">Submit Answer</button>
+      <p id="result-text" class="result"></p>
+    </section>
+  </main>
+
+</body>
+</html>

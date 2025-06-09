@@ -1,0 +1,91 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #eafaf1;
+  padding: 30px;
+  color: #333;
+}
+
+section {
+  background-color: #ffffff;
+  margin-bottom: 25px;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+}
+
+h2 {
+  color: #4a9e8c;
+  margin-bottom: 15px;
+}
+
+.quote-box {
+  float: right;
+  width: 220px;
+  background-color: #d9c6f0;
+  padding: 10px;
+  border-radius: 8px;
+  font-style: italic;
+  margin: 10px 0 10px 15px;
+}
+
+.hover-link {
+  font-weight: bold;
+  color: #4a9e8c;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.hover-link:hover {
+  text-decoration: underline;
+}
+
+.hover-output p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #5c5c5c;
+}
+
+input[type="button"] {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4a9e8c;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #3a7e6f;
+}
+
+.styled-btn {
+  margin-bottom: 8px;
+}
+
+/* Button Style Effects */
+.style-red {
+  color: #d9534f;
+  font-size: 20px;
+  font-family: Georgia, serif;
+}
+
+.style-green {
+  color: #5cb85c;
+  font-weight: bold;
+}
+
+.style-yellow {
+  background-color: #f0e68c;
+  padding: 6px;
+}
+
+.style-italic {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.style-caps {
+  letter-spacing: 1.5px;
+  font-variant: small-caps;
+}

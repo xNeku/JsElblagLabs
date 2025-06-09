@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mis Labs JavaScript</title>
+  <style>
+    body {
+      font-family: 'Verdana', sans-serif;
+      padding: 30px;
+      background-color: #1e1e2f;
+      color: #f1f1f1;
+      display: flex;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+
+    .wrapper {
+      background: #2e2e3e;
+      border-radius: 12px;
+      padding: 30px 35px 40px;
+      max-width: 500px;
+      width: 100%;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      border-bottom: 2px solid #444;
+      padding-bottom: 15px;
+      margin-bottom: 25px;
+      text-align: center;
+    }
+
+    header h1 {
+      color: #7fffd4;
+      font-size: 2.5rem;
+      margin: 0 0 8px;
+      letter-spacing: 1.5px;
+    }
+
+    header p.name {
+      font-weight: bold;
+      font-size: 1.3rem;
+      color: #00c896;
+      margin: 0;
+    }
+
+    header p.course {
+      font-size: 1rem;
+      color: #ccc;
+      margin-top: 8px;
+      font-style: italic;
+    }
+
+    nav ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    nav li {
+      background-color: #00c896;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a {
+      display: block;
+      padding: 13px 18px;
+      text-decoration: none;
+      color: #1e1e2f;
+      font-weight: 700;
+      font-size: 1.1rem;
+      border-radius: 8px;
+      user-select: none;
+      transition: background-color 0.3s ease;
+    }
+
+    nav a:hover,
+    nav a:focus {
+      background-color: #009f75;
+      color: #f1f1f1;
+      outline: none;
+      cursor: pointer;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 35px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1>JavaScript Labs</h1>
+      <p class="name">Nicolás Díaz</p>
+      <p class="course">Intro to Script Language – Instructor: PhD Jacek Paluszak</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="lab1/index.html">Lab 1 – Script loading & arrays</a></li>
+      <li><a href="lab2/index.html">Lab 2 – Simple quiz system</a></li>
+      <li><a href="lab3/index.html">Lab 3 – jQuery selectors & events</a></li>
+      <li><a href="lab4/index.html">Lab 4 – Advanced selectors & filters</a></li>
+      <li><a href="lab5/index.html">Lab 5 – Animations & FancyBox</a></li>
+      </ul>
+    </nav>
+
+    <footer>
+      &copy; 2025 Nicolás Díaz
+    </footer>
+  </div>
+
+</body>
+</html>
